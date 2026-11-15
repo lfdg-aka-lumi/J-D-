@@ -1,0 +1,76 @@
+{
+"@path": "res://addons/dialogic/Resources/character.gd",
+"@subpath": NodePath(""),
+&"_translation_id": "",
+&"color": Color(1, 1, 1, 1),
+&"custom_info": {
+"prefix": "",
+"sound_mood_default": "",
+"sound_moods": {},
+"style": "",
+"suffix": ""
+},
+&"default_portrait": "neutral/Neutral 3 Guy",
+&"description": "",
+&"display_name": "21 Niwiem",
+&"mirror": false,
+&"nicknames": [""],
+&"offset": Vector2(0, 0),
+&"portraits": {
+"happy/Neutralhappyguy": {
+"export_overrides": {
+"image": "\"res://character illustrations/neutralhappyguy.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"happy/Neutralhappytalkingguy": {
+"export_overrides": {
+"image": "\"res://character illustrations/neutralhappytalkingguy.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"neutral/Neutral 3 Guy": {
+"export_overrides": {
+"image": "\"res://character illustrations/neutral3guy.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"neutral/Neutraltalkguy": {
+"export_overrides": {
+"image": "\"res://character illustrations/neutraltalkguy.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"scared/Scaredguy": {
+"export_overrides": {
+"image": "\"res://character illustrations/scaredguy.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"scared/Scaredguy 0": {
+"export_overrides": {
+"image": "\"res://character illustrations/scaredguy0.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+}
+},
+&"scale": 1.0
+}

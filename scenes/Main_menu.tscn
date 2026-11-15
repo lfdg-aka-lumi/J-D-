@@ -1,0 +1,65 @@
+[gd_scene format=3 uid="uid://bqk877s51qy41"]
+
+[ext_resource type="Script" uid="uid://tpsuq62r6kns" path="res://scenes/buttons.gd" id="1_ow2sg"]
+[ext_resource type="Texture2D" uid="uid://b16btk4hoqpw3" path="res://Backrounds/pokoj.png" id="2_qtdab"]
+[ext_resource type="FontFile" uid="uid://d2baj55bybeng" path="res://fonts/Long_Shot.ttf" id="3_610dt"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_7whbb"]
+texture = ExtResource("2_qtdab")
+modulate_color = Color(0.3462944, 0.5465988, 0.56811845, 1)
+
+[node name="MainMenu" type="Control" unique_id=1631708098]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ow2sg")
+
+[node name="Panel" type="Panel" parent="." unique_id=1351194203]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_7whbb")
+metadata/_edit_use_anchors_ = true
+
+[node name="Label" type="Label" parent="Panel" unique_id=1762763786]
+layout_mode = 0
+offset_left = 23.0
+offset_top = 187.0
+offset_right = 1224.0
+offset_bottom = 516.0
+theme_override_fonts/font = ExtResource("3_610dt")
+theme_override_font_sizes/font_size = 297
+text = "J#### D###"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1128702507]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.0017361111
+anchor_top = 1.0415677
+anchor_right = -0.0078125
+anchor_bottom = 1.0046296
+offset_top = -304.0
+offset_right = 662.0
+grow_vertical = 0
+metadata/_edit_use_anchors_ = true
+
+[node name="start" type="Button" parent="VBoxContainer" unique_id=1954336595]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 47
+text = "Start"
+
+[node name="exit" type="Button" parent="VBoxContainer" unique_id=1828221340]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 47
+text = "Exit"
+
+[connection signal="pressed" from="VBoxContainer/start" to="." method="_on_start_pressed"]
+[connection signal="pressed" from="VBoxContainer/exit" to="." method="_on_exit_pressed"]

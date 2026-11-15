@@ -1,0 +1,14 @@
+label bad
+audio music "res://downn.mp3"
+[background arg="res://scenes/bad news new.png" fade="0.0"]
+[wait_input]
+[background arg="res://scenes/bad new spec new.png" fade="0.0"]
+[wait_input]
+[background arg="res://Characters/GUN.png" fade="0.0"]
+audio "res://wybor jd.mp3"
+- Pull the Trigger.
+	audio -
+	[background arg="res://Backrounds/suicide1.png" fade="0.0"]
+	[wait time="2.5"]
+	[end_timeline]
+[background scene="res://scenes/game over.tscn" fade="0.0"]

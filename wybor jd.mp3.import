@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://j7w6clt34j2v"
+path="res://.godot/imported/wybor jd.mp3-fea04a192c27a571e5dd4ee44e191a47.mp3str"
+
+[deps]
+
+source_file="res://wybor jd.mp3"
+dest_files=["res://.godot/imported/wybor jd.mp3-fea04a192c27a571e5dd4ee44e191a47.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

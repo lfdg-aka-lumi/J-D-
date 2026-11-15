@@ -1,0 +1,5 @@
+audio -
+[background arg="res://Backrounds/sitting on a tree.png" fade="0.0"]
+<Empty Text Event>
+if false == "":
+[end_timeline]

@@ -1,0 +1,61 @@
+label a
+[background arg="res://Backrounds/pokoj.png" fade="0.0"]
+join jeb left
+jeb: (it's probably Mia)
+audio -
+join Mia right
+Mia (Mia Talking): How have you been?
+jeb (Sad/Sad Jeb not talk 01): <Empty Text Event>
+Mia (Mia Silent): Did you eat?
+Mia (Mia Talking): I'm really worried about you, have you considered what we talked about?
+jeb (Apatheic/jeb looking away): I'm still not convinced
+jeb (Sad/Sad Jeb talk): It's just not for me
+Mia (Mia Talking): You know you can get out anytime you want right?
+Mia (Mia Silent): you could talk about it with the others at the rehabilitation centre
+jeb (Angry/Angry Jeb talk 2): I told you I don't need it
+jeb (Sad/Sad Jeb talk): It's better now
+jeb (Apatheic/jeb looking away): I'm  better
+jeb (Sad/Sad Jeb not talk 02): (why can't you see that?)
+Mia (Mia Silent): <Empty Text Event>
+jeb (Apatheic/jeb not talking): <Empty Text Event>
+Mia (Mia Talking): Do you want to cook something toghether?
+Mia (Mia Silent): I feel like I don't talk to you outside of these...
+jeb (Sad/Sad Jeb not talk 01): interventions?
+Mia (Mia Talking): Its not fair for you
+Mia (Mia Silent): or me
+jeb (Sad/Sad Jeb not talk 01): ...
+jeb (Apatheic/Jeb 1): I'm actually busy with something right now, but it does sound nice yeah
+Mia (Mia Silent): <Empty Text Event>
+audio "res://wybor jd.mp3"
+- Go back to the forum
+	Mia (Mia Talking): Is that so? I'll leave the food on the countertop
+	leave Mia
+	jump Forum 1/nie da sie napisac nudniejszeg watku i swear
+- Hang out with Mia
+	jump woman/ja kiedy ogladam unicef 2011 smurf fundraiser
+label ja kiedy ogladam unicef 2011 smurf fundraiser
+leave Mia
+leave jeb
+join jeb left
+join Mia right
+[background arg="res://Backrounds/netlix and chill.png" fade="0.0"]
+Mia (Mia Silent): Its been a while, I missed this
+jeb: Yeah, me too...
+Mia (Mia Talking): I really want you to be able to have this again
+jeb (Apatheic/jeb not talking): have what?
+Mia (Mia Talking): This, these normal moments with me, with everyone
+jeb (Apatheic/jeb looking away): I can have them
+Mia (angry/Angry Mia Close): oh really? Who do you actually talk to besides me? And how often is that? Twice a week? How long do these conversations take? What do we even actually talk about?
+jeb (Angry/Angry Jeb talk 1): Well maybe if you didn't make every moment like this a pseudo therapy session we'd talk more, for longer, about something different.
+jeb (Sad/Sad Jeb not talk 01):  I mean, did you really have to talk about it now? Couldn't you just reminiscent on how we used to watch movies as kids or something equally cheesy?
+join  center
+<Empty Text Event>
+Mia (angry/Angry Mia Open): well if you stopped blowing up in my face every time I try to help we could actually get it over with
+jeb (Angry/Angry Jeb talk 2): you say it like its that easy
+Mia (Mia Talking): I know it's not, that's why I'm trying so hard to reach out to you
+jeb (Angry/Angry Jeb): ...
+jeb (Sad/Sad Jeb not talk 02): I know you are it's just hard but I'll go
+jeb (Sad/Sad Jeb talk): I'll try
+Mia (Happy/Happy Mia): ...
+[end_timeline]
+[background scene="res://scenes/The End.tscn" fade="0.0"]

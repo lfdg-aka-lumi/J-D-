@@ -1,0 +1,8 @@
+label bad
+[background arg="res://Backrounds/bad news.png" fade="0.0"]
+[wait_input]
+[background arg="res://Backrounds/bad news.png" fade="0.0"]
+- Pull the trigger.
+	audio -
+	[background fade="0.0"]
+	[end_timeline]

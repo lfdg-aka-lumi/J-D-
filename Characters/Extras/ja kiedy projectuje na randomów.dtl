@@ -1,0 +1,139 @@
+label Random guy
+[background arg="res://Backrounds/Fasebook UId.png" fade="0.0"]
+21Niwiem: i saw your post recently
+21Niwiem: we have very much in common
+21Niwiem: i think that you could really...
+21Niwiem: ...bounce back
+21Niwiem: that we should be friends~
+audio "res://wybor jd.mp3"
+- accept
+[background arg="res://Backrounds/gabka.png" fade="0.0"]
+[wait_input]
+[background arg="res://Backrounds/pokoj.png" fade="0.0"]
+join jeb center
+jeb (Apatheic/jeb not talking): (i suddenly had the urge to tidy up)
+audio "res://wybor jd.mp3"
+- get to it
+	jeb (Sad/Sad Jeb not talk 02): (...)
+	leave jeb
+	[background arg="res://Backrounds/blurr chat.png" fade="0.0"]
+	21Niwiem: you said feeling better, huh?
+	21Niwiem: maybe you should try cooking something for yourself
+	audio "res://wybor jd.mp3"
+	- why not...?
+		[background arg="res://Backrounds/blurr chat.png" fade="0.0"]
+		21Niwiem: maybe you should think about reaching to your family
+		21Niwiem: im sure they really care about you
+		jeb (Apatheic/jeb looking away): ...
+		audio "res://wybor jd.mp3"
+		- maybe
+			21Niwiem:  we've talking for weeks now and i still don't know your face
+			21Niwiem: would you like to meet me?
+			audio "res://wybor jd.mp3"
+			- accept
+				jump good timeline accept/
+			- decline
+				jump good timeline decline/
+		- that's not a really good idea...
+			21Niwiem: ...
+			anyways, we've been talking for weeks now and i still don't know your face
+			21Niwiem: would you like to meet me?
+			audio "res://wybor jd.mp3"
+			- accept
+				jump good timeline accept/
+			- decline
+				jump good timeline decline/
+	- i'd rather wait for my sis cooking since it gives me an opportunity to interact with her
+		[background arg="res://Backrounds/blurr chat.png" fade="0.0"]
+		21Niwiem: maybe you should think about reaching to your family
+		21Niwiem: im sure they really care about you
+		jeb (Apatheic/jeb looking away): ...
+		audio "res://wybor jd.mp3"
+		- maybe
+			we've been talking for weeks now and i still don't know your face
+			21Niwiem: would you like to meet me?
+			audio "res://wybor jd.mp3"
+			- accept
+				jump good timeline accept/
+			- decline
+				jump good timeline decline/
+		- that's not a really good idea...
+			21Niwiem: ...
+			anyways, we've been talking for weeks now and i still don't know your face
+			21Niwiem: would you like to meet me?
+			audio "res://wybor jd.mp3"
+			- accept
+				jump bad timeline accept/
+			- decline
+				jump bad timeline accept/
+- go to bed, its alredy late
+	jeb: (...)
+	leave jeb
+	[background arg="res://Backrounds/blurr chat.png" fade="0.0"]
+	21Niwiem: you said feeling better, huh?
+	21Niwiem: maybe you should try cooking something for yourself
+	audio "res://wybor jd.mp3"
+	- why not...?
+		[background arg="res://Backrounds/blurr chat.png" fade="0.0"]
+		21Niwiem: maybe you should think about reaching out to your family
+		21Niwiem: im sure they really care about you
+		jeb: ...
+		audio "res://wybor jd.mp3"
+		- maybe
+			we've been talking for weeks now and i still don't know your face
+			21Niwiem: would you like to meet me?
+			audio "res://wybor jd.mp3"
+			- accept
+				jump good timeline accept/
+			- decline
+				jump good timeline decline/
+		- that's not a really good idea...
+			21Niwiem: ...
+			anyways, we've been talking for weeks now and i still don't know your face
+			21Niwiem: would you like to meet me?
+			audio "res://wybor jd.mp3"
+			- accept
+				jump bad timeline accept/
+			- decline
+				jump bad timeline accept/
+	- i'd rather wait for my sis cooking since it gives me an opportunity to interact with her
+		[background arg="res://Backrounds/blurr chat.png" fade="0.0"]
+		21Niwiem: maybe you should think about reaching out to your family
+		21Niwiem: im sure they really care about you
+		jeb: ...
+		audio "res://wybor jd.mp3"
+		- maybe
+			anyways, we've been talking for weeks now and i still don't know your face
+			21Niwiem: would you like to meet me?
+			audio "res://wybor jd.mp3"
+			- accept
+				jump bad timeline accept/
+			- decline
+				jump bad timeline accept/
+		- that's not a really good idea...
+			21Niwiem: ...
+			21Niwiem: anyways, we've been talking for weeks now and i still don't know your face
+			21Niwiem: would you like to meet me?
+			- accept
+				jump bad timeline accept/
+			- decline
+				jump bad timeline decline/
+		audio "res://wybor jd.mp3"
+		- maybe
+			21Niwiem: ...
+			anyways, we've been talking for weeks now and i still don't know your face
+			21Niwiem: would you like to meet me?
+			audio "res://wybor jd.mp3"
+			- accept
+				jump bad timeline accept/
+			- decline
+				jump bad timeline accept/
+		- that's not a really good idea...
+			21Niwiem: ...
+			21Niwiem: anyways, we've been talking for weeks now and i still don't know your face
+			21Niwiem: would you like to meet me?
+			audio "res://wybor jd.mp3"
+			- accept
+				jump bad timeline accept/
+			- decline
+				jump bad timeline decline/

@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://d50fuwa4eldb"]
+
+[ext_resource type="FontFile" uid="uid://d2baj55bybeng" path="res://fonts/Long_Shot.ttf" id="1_ultn3"]
+
+[node name="Control" type="Control" unique_id=806073797]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="." unique_id=1175016193]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="RichTextLabel" type="RichTextLabel" parent="." unique_id=143409024]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -380.0
+offset_top = 277.0
+offset_right = 398.0
+offset_bottom = 581.0
+grow_horizontal = 2
+theme_override_fonts/normal_font = ExtResource("1_ultn3")
+theme_override_font_sizes/normal_font_size = 300
+text = "THE END"

@@ -1,0 +1,47 @@
+audio music "res://04. The Farm of Pigs and Smoke.mp3"
+[background arg="res://Backrounds/pokoj.png" fade="0.0"]
+join jeb center
+jeb (Apatheic/jeb not talking): ...
+[wait time="1.5"]
+leave jeb
+[background arg="res://Backrounds/mamaaa uuuu.png" fade="0.0"]
+jeb (Apatheic/jeb not talking): ...
+[wait time="1.5"]
+audio "res://wybor jd.mp3"
+- pick up
+	leave jeb
+	audio -
+	[background arg="res://Backrounds/gada.png" fade="0.0"]
+	Mom: Why haven't you been picking up my calls?
+	Mom: You know I've been worried about you right?
+	Mom: Honestly, how can you be so cruel?
+	Mom: I've sacraficed so much for you and this is what I get in return?
+	Mom: Did even once consider how hard it can be on me?
+	Mom: To have to tell my friends my son is a failure whenever the topic of children comes up
+	Mom: To have to tell them he wouldnt even be able to eat if not for his sister forcing him to?
+	jeb (Apatheic/jab not talk(mought full close)): ...
+	Mom: But I accept that about you, you could have had it way worse
+	Mom: You should be greatful for having such a loving mother
+	Mom: But of course - you cant even bring yourself to pick up my calls
+	jeb (Angry/Angry Jeb): ...
+	audio "res://wybor jd.mp3"
+	- Hang up
+		[background arg="res://Backrounds/koniec.png" fade="0.0"]
+		audio "res://wybor jd.mp3"
+		- Go to the forum
+			jump Forum 1/
+- ignore it
+	[background arg="res://Backrounds/nje.png" fade="0.0"]
+	[wait_input]
+	[background arg="res://Backrounds/pokoj.png" fade="0.0"]
+	join jeb (Sad/Sad Jeb talk) center
+	jeb (Apatheic/jeb not talking): (I don't have the energy for her)
+	jeb (Apatheic/jeb looking away): (...)
+	jeb (Sad/Sad Jeb not talk 02): (I just hope Mia's not too worried)
+	jeb (Sad/Sad Jeb not talk 01): (Maybe I should've picked up?)
+	jeb (Apatheic/jeb looking away): (...)
+	jeb (Sad/Sad Jeb not talk 01): (Well, it's too late now)
+	leave jeb
+	audio "res://wybor jd.mp3"
+	- Go to the forum
+		jump Forum 1/

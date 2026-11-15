@@ -1,0 +1,66 @@
+[background arg="res://scenes/first new.png" fade="0.0"]
+[wait_input]
+[background arg="res://scenes/wpiwpio.png" fade="0.0"]
+jeb: (what an asshole)
+jeb: flunting how good he has it, he's probably laughing at all of these replies
+jeb: ...
+jeb: I might aswell join him
+jeb: There's nothing better to do anyway
+[background arg="res://scenes/taktakok.png" fade="0.0"]
+[wait_input]
+audio "res://wybor jd.mp3"
+- check mailbox
+	[background arg="res://Backrounds/chat first messeges.png" fade="0.0"]
+	[wait time="1.0"]
+	audio "res://wybor jd.mp3"
+	- Thats not right, why would you say that?
+		[background arg="res://Backrounds/exchange 5.png" fade="0.0"]
+		[wait_input]
+		[background arg="res://Backrounds/exchange 6.png" fade="0.0"]
+	- Who are you?
+		[background arg="res://Backrounds/chat answer.png" fade="0.0"]
+		[wait_input]
+		[background arg="res://Backrounds/exchange 1.png" fade="0.0"]
+		[wait_input]
+		[background arg="res://Backrounds/exchange 2.png" fade="0.0"]
+		[wait_input]
+		[background arg="res://Backrounds/exchange 3.png" fade="0.0"]
+		[wait_input]
+		[background arg="res://Backrounds/exchange 4.png" fade="0.0"]
+	[wait time="1.0"]
+	[background arg="res://Backrounds/exchange 7.png" fade="0.0"]
+	jump woman/a
+- ignore
+	[background arg="res://scenes/first new.png" fade="0.0"]
+	jump ja kiedy projectuje na randomów/Random guy
+label nie da sie napisac nudniejszeg watku i swear
+leave jeb
+leave Mia
+audio music "res://downn.mp3"
+[background arg="res://Backrounds/blurr chat.png" fade="0.0"]
+warlus: hello?
+jeb: sorry i was talking to my sis
+warlus: see?
+jeb: what?
+warlus: that's what I'm talking about
+warlus: why is she pushing you around like that?
+jeb: what? Mai? She may be annoying sometimes but I still love her
+warlus: ...
+warlus: well she may not be THAT bad but your mother's CRAZY
+jeb: what are you talking about now?
+warlus: she's ruining your life
+warlus: she's CRAZY
+warlus: she DESTROYED
+warlus: she DESTROYED you
+warlus: you shouldn't let her do that
+warlus: she should die jeb
+warlus: she deserves to die
+jeb: ...
+[background arg="res://Backrounds/Mutter ist toner.png" fade="0.0"]
+join jeb (Noz) left
+[wait time="2.5"]
+leave jeb
+[background arg="res://Backrounds/bitch.png" fade="0.0"]
+[wait time="2.5"]
+[end_timeline]
+[background scene="res://scenes/game over.tscn" fade="0.0"]

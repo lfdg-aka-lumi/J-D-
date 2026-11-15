@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://8lcd4arehaky"
+path="res://.godot/imported/04. The Farm of Pigs and Smoke.mp3-8b78aa82d15c5b174a3a12c5c7ec7344.mp3str"
+
+[deps]
+
+source_file="res://04. The Farm of Pigs and Smoke.mp3"
+dest_files=["res://.godot/imported/04. The Farm of Pigs and Smoke.mp3-8b78aa82d15c5b174a3a12c5c7ec7344.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

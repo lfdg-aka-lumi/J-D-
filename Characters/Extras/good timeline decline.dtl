@@ -1,0 +1,9 @@
+label good
+[background arg="res://scenes/bad news new.png" fade="0.0"]
+[wait_input]
+[background arg="res://scenes/bad new spec new.png" fade="0.0"]
+jeb: ...
+audio "res://wybor jd.mp3"
+- Call Mia
+	[end_timeline]
+[background scene="res://scenes/The End.tscn" fade="0.0"]

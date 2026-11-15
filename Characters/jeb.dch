@@ -1,0 +1,248 @@
+{
+"@path": "res://addons/dialogic/Resources/character.gd",
+"@subpath": NodePath(""),
+&"_translation_id": "",
+&"color": Color(1, 1, 1, 1),
+&"custom_info": {
+"prefix": "",
+"sound_mood_default": "",
+"sound_moods": {},
+"style": "New_File",
+"suffix": ""
+},
+&"default_portrait": "Apatheic/jeb not talking",
+&"description": "",
+&"display_name": "Jeb",
+&"mirror": false,
+&"nicknames": [""],
+&"offset": Vector2(0, 0),
+&"portraits": {
+"Angry/Angry Jeb": {
+"export_overrides": {
+"image": "\"res://character illustrations/Angry jeb.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"Angry/Angry Jeb talk 1": {
+"export_overrides": {
+"image": "\"res://character illustrations/Angry jeb 1.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"Angry/Angry Jeb talk 2": {
+"export_overrides": {
+"image": "\"res://character illustrations/Angry Jeb 2.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"Apatheic/Jeb 1": {
+"export_overrides": {
+"image": "\"res://character illustrations/JEB TALK NORMAL 02.png\""
+},
+"ignore_char_scale": false,
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": "res://addons/dialogic/Modules/HighlightPortrait/simple_highlight_portrait.tscn"
+},
+"Apatheic/jab not talk(mought full close)": {
+"export_overrides": {
+"image": "\"res://character illustrations/JEB NOT TALKING.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": "res://addons/dialogic/Modules/HighlightPortrait/simple_highlight_portrait.tscn"
+},
+"Apatheic/jeb looking away": {
+"export_overrides": {
+"image": "\"res://character illustrations/JEB LOKING AWAY.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": "res://addons/dialogic/Modules/HighlightPortrait/simple_highlight_portrait.tscn"
+},
+"Apatheic/jeb not talking": {
+"export_overrides": {
+"image": "\"res://character illustrations/JEB TALK NORMAL 01.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"Blush Close": {
+"export_overrides": {
+"image": "\"res://character illustrations/blush close.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"Noz": {
+"export_overrides": {
+"image": "\"res://Backrounds/noz.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"Sad/Blush Open": {
+"export_overrides": {
+"image": "\"res://character illustrations/blush open.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"Sad/Sad Jeb not talk 01": {
+"export_overrides": {
+"image": "\"res://character illustrations/Sad jeb 1.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"Sad/Sad Jeb not talk 02": {
+"export_overrides": {
+"image": "\"res://character illustrations/Sad jeb.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"Sad/Sad Jeb talk": {
+"export_overrides": {
+"image": "\"res://character illustrations/Sad jeb 2.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": "res://addons/dialogic/Modules/Character/default_portrait.tscn"
+},
+"happy/Angry Jeb Not Talk Yellow": {
+"export_overrides": {
+"image": "\"res://character illustrations/Angry jeb not talk YELLOW.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"happy/Angry Jeb Talk 1 Yellow": {
+"export_overrides": {
+"image": "\"res://character illustrations/Angry jeb talk 1 YELLOW.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"happy/Angry Jeb Talk 2 Yellow": {
+"export_overrides": {
+"image": "\"res://character illustrations/Angry jeb talk 2 YELLOW.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"happy/Happy Jeb Not Talk Yellow": {
+"export_overrides": {
+"image": "\"res://character illustrations/Happy jeb not talk YELLOW.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"happy/Happy Jeb Talk 1 Yellow": {
+"export_overrides": {
+"image": "\"res://character illustrations/Happy jeb talk 1 YELLOW.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"happy/Happy Jeb Talk 2 Yellow": {
+"export_overrides": {
+"image": "\"res://character illustrations/Happy jeb talk 2 YELLOW.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"warm/Jeb Looking Away Yellow": {
+"export_overrides": {
+"image": "\"res://character illustrations/Jeb looking away YELLOW.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"warm/neutral/Nautral Jeb Not Talk Yellow": {
+"export_overrides": {
+"image": "\"res://character illustrations/Nautral jeb not talk YELLOW.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"warm/neutral/Nautral Jeb Talk 1 Yellow": {
+"export_overrides": {
+"image": "\"res://character illustrations/Nautral jeb talk 1 YELLOW.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"warm/sad/Sad Jeb Not Talk Yellow": {
+"export_overrides": {
+"image": "\"res://character illustrations/Sad jeb not talk YELLOW.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"warm/sad/Sad Jeb Talk 1 Yellow": {
+"export_overrides": {
+"image": "\"res://character illustrations/Sad jeb talk 1 YELLOW.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"warm/sad/Sad Jeb Talk 2 Yellow": {
+"export_overrides": {
+"image": "\"res://character illustrations/Sad jeb talk 2 YELLOW.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+}
+},
+&"scale": 1.0
+}
